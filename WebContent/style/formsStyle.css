@@ -1,0 +1,116 @@
+/* Général ------------------------------------------------------------------------------------- */
+
+body {	background: #4fe8ce;
+		font-family: "Candara", sans-serif;
+		margin: 20px;
+		display: flex;
+		
+		}
+
+body, p, legend, label, input {
+    font: normal 10pt "Candara", verdana, helvetica, sans-serif;
+    
+}
+
+/* Forms --------------------------------------------------------------------------------------- */
+fieldset .M{
+    padding: 5px;
+    border: 1px #0568CD solid;
+}
+fieldset .L{
+    padding: 5px;
+    border: 0.5px #0568CD solid;
+}
+
+legend {
+    font-weight: bold;
+    color: #0568CD;
+}
+
+form label {
+    float: left;
+    width: 200px;
+    margin: 3px 0px 0px 0px;
+}
+
+form input {
+    margin: 3px 3px 0px 0px;
+    border: 1px #999 solid;
+    font: italic 10pt "Candara", verdana, helvetica, sans-serif;
+    color: blue; 
+}
+
+
+aside {
+	background-color: white;
+	padding: 10px;
+	border: 1px #999 solid;
+}
+
+footer{
+	
+	background-color: white;
+	padding: 10px;
+	border: 1px #999 solid;
+
+	}
+
+form input.L:last-child {
+  float: right;
+}
+
+form input.sansLabel {
+    margin-left: 200px;
+}
+
+form input.L {
+    width: 49%;
+}
+
+form input.M {
+    float: left;
+}
+
+form select {
+    float: left;
+    margin: 3px 3px 0px 0px;
+    border: 1px #4573d1solid;
+    width: 100px;
+    height: 100px;
+    font: italic 10pt "Candara", verdana, helvetica, sans-serif;
+    color: blue; 
+}
+
+form textarea {
+    float: left;
+    margin: 3px 3px 0px 0px;
+    border: 1px #4573d1solid;
+    width: 97%;
+    height: 40px;
+    font: italic 10pt "Candara", verdana, helvetica, sans-serif;
+    color: blue; 
+}
+
+form label {
+    width: 500px;
+}
+input:disabled{
+	background-color: #8ea1ab;
+}
+/* Styles et couleurs -------------------------------------------------------------------------- */
+.requis {
+    color: #c00;
+}
+
+.erreur {
+    color: #900;
+}
+
+.succes {
+    color: #090;
+}
+
+.info {
+    font-style: italic;
+    color: #E8A22B;
+}
